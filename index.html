@@ -18,8 +18,8 @@
             <form id="submit-form">
                 <p>Enter card details</p>
                 <input type="name" name="name" id="name" placeholder="Enter your name" required>
-                <input type="text" name="card-number" id="card-number" placeholder="Enter your card number" inputmode="numeric" maxlength="16" required>
-                <input type="text" name="cvv-number" id="cvv-number" placeholder="Enter CVV" inputmode="numeric" maxlength="3" required>
+                <input type="text" name="card-number" id="card-number" placeholder="Enter your card number" inputmode="numeric" minlength="16" maxlength="16"  required>
+                <input type="text" name="cvv-number" id="cvv-number" placeholder="Enter CVV" inputmode="numeric"  minlength="3" maxlength="3" required>
                 <button class="pay-button" id="pay-button">Pay</button>
             </form>
         </div>
