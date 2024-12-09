@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodfilled</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@400..700&family=Kavoon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <h1>Foodfilled Menu</h1>
+        <p>The best burgers and pizzas in town.</p>
+    </main>
+        <div class="payment-details" id="payment-details">
+            <form id="submit-form">
+                <p>Enter card details</p>
+                <input type="name" name="name" id="name" placeholder="Enter your name" required>
+                <input type="text" name="card-number" id="card-number" placeholder="Enter your card number" inputmode="numeric" maxlength="16" required>
+                <input type="text" name="cvv-number" id="cvv-number" placeholder="Enter CVV" inputmode="numeric" maxlength="3" required>
+                <button class="pay-button" id="pay-button">Pay</button>
+            </form>
+        </div>
+        <section id="display-menu" class="display-menu">
+        </section>
+        <section class="clear-content" id="clear-content">
+            
+            <p class="your-order">Your Order</p>
+            <section id="selected-order" class="selected-order">
+            </section>
+            <section id="submit-order" class="submit-order">
+                
+            </section>
+        </section>
+    <section class="order-complete" id="order-complete">
+    </section>
+    <script src="index.js" type="module"></script>
+</body>
+</html>

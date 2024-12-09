@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    font-family: "Acme", sans-serif;
+}
+main {
+    background: url(./images/burger-menu-hd.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 1.5em;
+    background-position: center;
+    color: #fff;
+}
+.display-menu {
+    margin: 3em auto;
+    max-width: 760px;
+    
+}
+.selected-order {
+    max-width: 540px;
+    margin: 1em auto;
+}
+.image-emoji {
+    width: 90px;
+    height: 72px;
+    
+}
+.beer-emoji {
+    width: 150px;
+    height: 72px;
+}
+.composition {
+    color: #9CA3AF;
+    font-weight: 200;
+    font-size: 0.75rem;
+    line-height: 1;
+}
+.add-btn, .remove-btn {
+    border-radius: 50%;
+    padding: 0.25em 0.5em;
+    border: 2px solid #D1D5DB;
+    background: none;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    
+}
+.remove-btn {
+ height: 32px;
+ width: 32px;
+}
+.add-btn {
+    margin-left: auto;
+    height: 48px;
+    width: 48px;
+}
+.menu-item {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    border-bottom: 2px solid #D1D5DB;
+    padding: 1.5em;
+}
+.menu-title {
+    line-height: 0.5;
+    font-weight: 900;
+}
+
+.your-order {
+    text-align: center;
+}
+
+.complete-order {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+
+}
+.total-price {
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    max-width: 540px;
+    margin: 1em auto;
+    border-top: 2px solid black;
+}
+.total-amount {
+    font-weight: 300;
+    font-size: 0.75rem;
+    margin-top: 1.5em;
+}
+.pay-order, .pay-button {
+    color: #fff;
+    background-color: #F59E0B;
+    border-radius: 5px;
+    border: none;
+    padding: 0.75em 1.5em;
+    margin: 1em auto;
+    display: block;
+    font-family: inherit;
+    font-size: 1rem;
+    
+}
+.pay-button {
+    width: 100%;
+    font-family: inherit;
+}
+
+input {
+    padding: 1em;
+    margin: 1em auto;
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    font-family: inherit;
+}
+.payment-details {
+    position: fixed;
+    top: 5;
+    right: 0;
+    left: 0;
+    bottom: 10;
+    display: none;
+    margin: 1em auto;
+}
+
+form {
+    background: url(./images/burger-menu-hd.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    display: block;
+    align-items: center;
+    max-width: 540px;
+    margin: auto;
+    text-align: center;
+    padding: 0.5em 1em;
+    color: white;
+    height: 50vh;
+}
+.order-complete {
+    text-align: center;
+    background: #D1FAE5;
+    color: #065F46;
+    padding: 2em;
+    max-width: 540px;
+    margin: 3em auto;
+    display: none;
+}
+@media (max-width: 540px) {
+    h1 {
+        font-size: 1.15rem;
+    }
+    .payment-details {
+        padding: 1.5em 1em;
+    }
+    .add-btn {
+        height: 32px;
+        width: 32px;
+    }
+    .pay-order {
+        width: 75%;
+        font-size: 1rem;
+    }
+    .your-order {
+        font-size: 1rem;
+    }
+}
