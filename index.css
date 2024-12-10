@@ -43,8 +43,6 @@ main {
     border: 2px solid #D1D5DB;
     background: none;
     font-size: 1.1rem;
-    margin-top: 10px;
-    
 }
 .remove-btn {
  height: 32px;
@@ -100,7 +98,6 @@ main {
     display: block;
     font-family: inherit;
     font-size: 1rem;
-    
 }
 .pay-button {
     width: 100%;
@@ -155,9 +152,17 @@ form {
         padding: 1.5em 1em;
     }
     .add-btn {
-        height: 32px;
-        width: 32px;
+        height: 36px;
+        width: 36px;
+        
+        
     }
+    .remove-btn {
+        height: 30px;
+        width: 34px;
+        padding-bottom: 26px;
+        
+       }
     .pay-order {
         width: 75%;
         font-size: 1rem;
